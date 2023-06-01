@@ -1,1 +1,1 @@
-# digital-thermostat
+# DIGITAL THERMOSTAT
