@@ -11,6 +11,6 @@ following were the requirements of the task:
 the details of accomplishment of each requirement is described below:
 ###Temperature simulation algorithm
 
-'''
+```
 sdhsuh
-'''
+```
