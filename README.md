@@ -12,5 +12,28 @@ the details of accomplishment of each requirement is described below:
 ###Temperature simulation algorithm
 
 ```
-sdhsuh
+***C CODE***
+float simulated_temperature(float min_change, float max_change,float current_temperature)
+{
+	float change = ((float)rand() / RAND_MAX) * (max_change - min_change) + min_change;
+	return current_temperature + change;
+}
+...
+void main()
+{
+float Tmax=40;
+float Tmin = 10;
+float max_change=5;
+flaot min_change=-5;
+...
+while(1)
+{
+float current_temp=((float)rand() / RAND_MAX) * (Tmax - Tmin) + Tmin;
+Sensor_1= simulated_temperature(min_change,max_change,current_temp);
+Sensor_2= simulated_temperature(min_change,max_change,current_temp);
+float avg_temp= (sensor_1+sensor_2)/2;
+..
+}
+}
 ```
+in this task i used simulated temperature that returns random temperature values which is utilized as various sensor reading and used as temperature of surroundings in the project althoug for practical purpose multiple lm35 temperature sensors  can be used whose readings can be extracted by averaging finally giving us the avg temperature of surroundings 
