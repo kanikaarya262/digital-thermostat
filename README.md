@@ -124,3 +124,9 @@ TCCR0 = (1<<WGM00)|(1<<WGM01)|(1<<COM01)|(1<<CS00)|(1<<CS01);/* Set Fast PWM wit
    }
 }
 ```
+### feedback and display:
+for feedback temperature is being constantly meadured and updated along with calculation of error between present and desired temperature also for display 16x2 lcd is used to print current as well as desired display
+### simulation:
+proteus simulation:
+
+<img width="422" alt="Screenshot 2023-06-02 175023" src="https://github.com/kanikaarya262/digital-thermostat/assets/93133854/113d5341-da21-40b3-ba2e-5361efa65882">
