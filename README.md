@@ -130,3 +130,5 @@ for feedback temperature is being constantly meadured and updated along with cal
 proteus simulation:
 
 <img width="422" alt="Screenshot 2023-06-02 175023" src="https://github.com/kanikaarya262/digital-thermostat/assets/93133854/113d5341-da21-40b3-ba2e-5361efa65882">
+tu run the simulation open proteus file right click on the microcontroller add the hex file from the debug folder provided with thermostat file including main source code file.
+
